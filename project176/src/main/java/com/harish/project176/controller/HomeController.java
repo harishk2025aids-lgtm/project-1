@@ -12,6 +12,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/")
 public class HomeController {
 
+@GetMapping
+public String home() {
+    return "Application is running. Try /hello or /api/user";
+}
+
 @GetMapping("hello")
 public String get() {
     return "Hello world";
