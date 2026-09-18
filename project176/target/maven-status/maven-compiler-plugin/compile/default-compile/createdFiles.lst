@@ -1,5 +1,6 @@
 com/harish/project176/Project176Application.class
 com/harish/project176/controller/usercontroller.class
-com/model/user.class
-com/harish/project176/controller/HomeController.class
 com/harish/project176/controller/usercontroller$user.class
+com/model/user.class
+com/model/userrepository.class
+com/harish/project176/controller/HomeController.class
