@@ -4,5 +4,5 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 
 
-public interface userrepository extends JpaRepository<user, String> {
+public interface userRepository extends JpaRepository<user, String> {
 }
