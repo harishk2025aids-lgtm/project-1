@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Spring Boot APP</title>
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <main id="main-container">
+        <div id="user-form-container">
+            <form onsubmit="handleUserFormSubmit"(event)" id="user-form">
+                <div>
+                    <label for="">First Name:</label> 
+                    <input required type="text" id="firstName" name="firstName" />
+                </div>
+                <div>
+                    <label for="">Last Name:</label>
+                    <input required type="text" id="lastName" name="lastName" />
+                </div>
+                <div>
+                    <label for="">Email:</label>
+                    <input required type="email" id="email" name="email" />
+                </div>
+                <div>
+                <button type="submit">Add User</button>
+                </div>
+            </form>
+        </div>
+        <table id="users-list">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody id="users-list-body">
+            </tbody>
+
+        </table>
+    </main>
+    
+</body>
+</html>
